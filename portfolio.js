@@ -24,8 +24,16 @@
 //     document.getElementById("detail_section").innerHTML = adCode;
 // }
 
+// git add . 
+// git commit -m 'some message about the work you've done'
+// git push
 
-lorem = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac fermentum elit. Praesent sed ipsum a ex dignissim vehicula. Vivamus ultricies facilisis metus. Donec mi risus, pharetra vulputate vestibulum cursus, faucibus eget neque. Ut sed vulputate enim, ut cursus erat. Curabitur tempor, nibh quis mollis finibus, nibh libero blandit turpis, vel egestas metus nunc vel eros. Nullam euismod lectus molestie purus accumsan accumsan."
+
+webText = document.getElementById('webText').innerHTML
+photoText = document.getElementById('photoText').innerHTML
+adText = document.getElementById('adText').innerHTML
+
+console.log(webText)
 
 
 function changeContent(e) {
@@ -36,12 +44,12 @@ function changeContent(e) {
     var newCode = targetElement.innerHTML
 
     if (clickedElement === 'web') {
-        newCode = createDynamicCode('./images/stock_website.jpg', 'example website', 'Web Design', lorem)
+        newCode = createDynamicCode('./images/stock_website.jpg', 'example website', 'Web Design', webText)
     } else if (clickedElement === 'photo') {
-        newCode = createDynamicCode('./images/photography.png', 'example photography', 'Photography and Photo Editing', lorem)
+        newCode = createDynamicCode('./images/photography.png', 'example photography', 'Photography and Photo Editing', photoText)
     }
     else if (clickedElement === 'ad') {
-        newCode = createDynamicCode('./images/stock_canva.jpg', 'example advertisement', 'Advertisements', lorem)
+        newCode = createDynamicCode('./images/stock_canva.jpg', 'example advertisement', 'Advertisements', adText)
     }
 
     targetElement.innerHTML = newCode
