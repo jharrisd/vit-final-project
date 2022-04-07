@@ -156,12 +156,64 @@ aside {
     flex-direction: column;
     width: 75%;
     border-radius: 5px;
-    height: 100%;
+    padding: 1%;
 }
 
 aside > p {
     background-color: lightgrey;
-    padding: 2.5vw;
+}
+
+aside > h1 {
+    background-color: lightgrey;
+}
+
+.userData {
+    background-color: lightgrey;
+    display: flex;
+    height: 20%;
+}
+
+.formContent {
+    width: 30%;
+}
+
+#message {
+    width: 80%;
+    height: 60%;
+}
+
+aside > form > label {
+    background-color: lightgrey;
+    padding: 2px;
+}
+
+.name > label {
+    background-color: lightgrey;
+}
+
+.contactData > label { 
+    background-color: lightgrey;
+}
+
+.name {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.contactData {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+aside > form {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+
+#submitButton {
+    width: 10%;
 }
 
 /* FOOTER CSS */

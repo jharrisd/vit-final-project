@@ -30,7 +30,24 @@
         </article>
 
         <aside>
-            <span>The goal here is for a contact box that will ideally allow a user to enter their name, contact info, and message, and directly send it to me via text or email</span>
+            <h1>Feel free to reach out through the website!</h1>
+            <form action="" method="post" enctype="text/html">
+                <div class = "name">
+                    <label for="firstName" class = "formContent" >First Name: </label>
+                    <input type="text" name="firstName" id="firstName" class = "formContent">
+                    <label for="lastName" class = "formContent">Last Name: </label>
+                    <input type="text" name="lastName" id="lastName" class = "formContent">
+                </div>
+                <div class="contactData">
+                    <label for="email" class = "formContent">Email: </label>
+                    <input type="text" name="email" id="email" class = "formContent">
+                    <label for="phoneNum" class = "formContent">Phone #: </label>
+                    <input type="text" name="phoneNum" id="phoneNum" class = "formContent">
+                </div>
+                <label for="message" class = "formContent">Message: </label><br>
+                <textarea type="text" name="message" id="message" class = "formContent"></textarea><br>
+                <input type="submit" id="submitButton">
+            </form>       
         </aside>
     </main>
 
