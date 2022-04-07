@@ -1,0 +1,147 @@
+* {
+    background-color: #fefae0;
+}
+
+/* Color CSS by Class */
+
+/* .darkGreen {
+    color: #283618;
+}
+
+.lightGreen {
+    color: #606C38;
+}
+
+.offWhite {
+    color: #FEFAE0;
+}
+
+.lightOrange {
+    color: #DDA15E;
+}
+
+.orange {
+    color: #BC6C25;
+} */
+
+/* HEADER CSS */
+
+header {
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    height: 10vh;
+}
+
+.header-logo {
+    width: 10%;
+    overflow: hidden;
+}
+
+.header-logo > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+}
+
+nav > h3 {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* INDEX MAIN CSS */
+
+main {
+    height: 125vh;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.details {
+    height: 65%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details > img {
+    height: 70%;
+}
+
+.quick_select {
+    height: 35%;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+}
+
+.quick_items {
+    width: 33%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.quick_items > img {
+    height: 98%;
+    width: 100%;
+}
+
+.detail_text { 
+    display: none;
+}
+
+.contact_main { 
+    display: flex;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+
+article > img {
+    width: 100%;
+}
+
+.article_text {
+    overflow-wrap: break-word;
+}
+
+aside {
+    display: flex;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100%;
+}
+
+/* FOOTER CSS */
+
+footer {
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 3vh;
+    max-height: 10vh;
+}
+
+.footer_text {
+    margin: 0px;
+}

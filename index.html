@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Harris</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./portfolio.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="./images/stock_logo.jpg" alt="logo image" id="logo">
+        </div>
+
+        <nav>
+            <h3><a href="index.html">HOME</a> </h3>                  
+            <h3><a href="about_me.html">MORE ABOUT ME</a></h3>
+            <h3><a href="contact.html">REACH OUT</a></h3>
+        </nav>
+    </header>
+
+
+    <!-- Goal is to create a changable header item with 3 selectable images on the bottom to choose from -->
+    <main>
+        <div class="details" id="detail_section">
+            <img src="./images/stock_website.jpg" alt="example website image">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac fermentum elit. Praesent sed ipsum a ex dignissim vehicula. Vivamus ultricies facilisis metus. Donec mi risus, pharetra vulputate vestibulum cursus, faucibus eget neque. Ut sed vulputate enim, ut cursus erat. Curabitur tempor, nibh quis mollis finibus, nibh libero blandit turpis, vel egestas metus nunc vel eros. Nullam euismod lectus molestie purus accumsan accumsan.</p>
+        </div>
+
+        <div class="quick_select">
+            <div class="quick_items">
+                <img src="./images/stock_website.jpg" alt="example website image" id="web" onClick="changeContent(event)">
+                <span class = "detail_text" id = "webText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac fermentum elit. Praesent sed ipsum a ex dignissim vehicula. Vivamus ultricies facilisis metus. Donec mi risus, pharetra vulputate vestibulum cursus, faucibus eget neque. Ut sed vulputate enim, ut cursus erat. Curabitur tempor, nibh quis mollis finibus, nibh libero blandit turpis, vel egestas metus nunc vel eros. Nullam euismod lectus molestie purus accumsan accumsan.</span>
+            </div>
+             <div class="quick_items">
+                <img src="./images/photography.png" alt="example photography image" id="photo" onClick="changeContent(event)">
+                <span class = "detail_text" id = "photoText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac fermentum elit. Praesent sed ipsum a ex dignissim vehicula. Vivamus ultricies facilisis metus. Donec mi risus, pharetra vulputate vestibulum cursus, faucibus eget neque. Ut sed vulputate enim, ut cursus erat. Curabitur tempor, nibh quis mollis finibus, nibh libero blandit turpis, vel egestas metus nunc vel eros. Nullam euismod lectus molestie purus accumsan accumsan.</span>
+            </div>
+            <div class="quick_items">
+                <img src="./images/stock_canva.jpg" alt="example advertisement" id="ad" onClick="changeContent(event)">
+                <span class = "detail_text" id = "adText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ac fermentum elit. Praesent sed ipsum a ex dignissim vehicula. Vivamus ultricies facilisis metus. Donec mi risus, pharetra vulputate vestibulum cursus, faucibus eget neque. Ut sed vulputate enim, ut cursus erat. Curabitur tempor, nibh quis mollis finibus, nibh libero blandit turpis, vel egestas metus nunc vel eros. Nullam euismod lectus molestie purus accumsan accumsan.</span>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <h4 class="footer_text">Contact</h4>
+        <p class="footer_text">Phone #: 555-555-5555</p>
+        <p class="footer_text">Email: example_email@gmail.com</p>
+    </footer>
+</body>
+</html>
